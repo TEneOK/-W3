@@ -1,7 +1,121 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
+          System.out.println("======Task 1=====");
+        int apple = 5;
+        byte snake = 1;
+        short speed = 256;
+        long diamond = 243333336;
+        float seen = 222;
+        double earth = 5.5;
+System.out.println("Значение переменной apple с типом int равно "+ apple);
+System.out.println("Значение переменной snake с типом byte равно "+ snake);
+System.out.println("Значение переменной speed с типом short равно "+ speed);
+System.out.println("Значение переменной diamond с типом long равно "+ diamond);
+System.out.println("Значение переменной seen с типом float равно "+ seen);
+System.out.println("Значение переменной earth с типом double равно "+ earth);
+          System.out.println("======Task 2=====");
+         float a = 27.12f;
+         long b = 987_678_965_549L;
+         double c = 2.786;
+         short d = 569;
+         short e = -159;
+         int aa = 27897;
+         byte bb = 67;
+System.out.println(a+ "-тип float");
+System.out.println(b+ "-тип long");
+System.out.println(c+ "-тип double");
+System.out.println(d+ "-тип short");
+System.out.println(e+ "-тип short");
+System.out.println(aa+ "-тип int");
+System.out.println(bb+ "-тип byte");
+          System.out.println("======Task 3=====");
+         byte pavlovna = 23;
+         byte sergeevna = 27;
+         byte andreevna = 30;
+         short paper = 480;
+         int students = (pavlovna+sergeevna+andreevna);
+         int allPaper = paper/students;
+System.out.println("На каждого ученика рассчитано "+ allPaper +" листов бумаги");
+          System.out.println("======Task 4=====");
+          short bottle = 16;
+          int oneMinuteBottle = (bottle/2);
+          int twenty = (oneMinuteBottle*20);
+          int hour = (oneMinuteBottle*60);
+          int day = (hour*24);
+          int threeDays = (hour*72);
+          int month = (day*30);
+System.out.println("За 20 минут машина произвела " +twenty+" штук бутылок");
+System.out.println("За сутки машина произвела " +day+" штук бутылок");
+System.out.println("За 3 дня машина произвела " +threeDays+" штук бутылок");
+System.out.println("За месяц машина произвела " +month+" штук бутылок");
+          System.out.println("======Task 5=====");
+          int color = 120;
+          byte white = 2;
+          byte brown = 4;
+          int sumRoom = (white+brown);
+          int room = (color/sumRoom);
+          int sumWhite = (white*room);
+          int sumBrown = (brown*room);
+System.out.println("В школе, где " +room+ " классов, нужно " +sumWhite+ " банок белой краски и " +sumBrown+" банок " +
+        "коричневой краски");
+          System.out.println("======Task 6=====");
+          byte banana = 80;
+          byte bananas = 5;
+          byte milk100 = 105;
+          byte milks = 2;
+          byte iceСream = 100;
+          byte iceCreams = 2;
+          byte egg = 70;
+          byte eggs = 4;
+          int sumBananas = (bananas*banana);
+          int sumMilk = (milk100*milks);
+          int sumIceCrem = (iceСream*iceCreams);
+          int sumEgg = (egg*eggs);
+          int weightGrams = (sumBananas+sumMilk+sumIceCrem+sumEgg);
+          float kiloBananas = (sumBananas/1000f);
+          float kiloMilk = (sumMilk/1000f);
+          float kiloIceCrem = (sumIceCrem/1000f);
+          float kiloEgg = (sumEgg/1000f);
+          float weightKiloGrams = (kiloBananas+kiloMilk+kiloIceCrem+kiloEgg);
+System.out.println("Вес такого спортзавтрака в граммах= "+weightGrams+ "грамма");
+System.out.println("Вес такого спортзавтрака в килограммах= "+weightKiloGrams+ "килограмма");
+          System.out.println("======Task 7=====");
+          byte resetWeight = 7;
+          short resetWeightGrams = (7*1000);
+          short reset250 = 250;
+          short reset500 = 500;
+          int day250 = (resetWeightGrams/reset250);
+          int day500 = (resetWeightGrams/reset500);
+          int sumDay = (day250+day500);
+          int averageDay = (sumDay/2);
+System.out.println(day250+" дней уйдет на похудение, если спортсмен будет терять каждый день по 250 грамм");
+System.out.println(day500+" дней уйдет на похудение, если каждый день будет худеть на 500 грамм.");
+System.out.println(averageDay+" потребуется дней в среднем, чтобы добиться результата похудения.");
+        System.out.println("======Task 8=====");
+        long masha = 67760;
+        long denis = 83690;
+        long kristina = 76230;
+        double percent = 0.10;
+        double percentMasha = (masha*percent);
+        double percentDenis = (denis*percent);
+        double percentKristina = (kristina*percent);
+        double salaryIncreaseMasha = (masha + percentMasha);
+        double salaryIncreaseDenis = (denis + percentDenis);
+        double salaryIncreaseKristina = (kristina + percentKristina);
+        long annualIncomeMasha = (masha*12);
+        long annualIncomeDenis = (denis*12);
+        long annualIncomeKristina = (kristina*12);
+        double annualIncomeMashaNew = (salaryIncreaseMasha*12);
+        double annualIncomeDenisNew = (salaryIncreaseDenis*12);
+        double annualIncomeKristinaNew = (salaryIncreaseKristina*12);
+        double GrewUpMasha = (annualIncomeMashaNew-annualIncomeMasha);
+        double GrewUpDenis = (annualIncomeDenisNew-annualIncomeDenis);
+        double GrewUpKristina = (annualIncomeKristinaNew-annualIncomeKristina);
+System.out.println("Маша теперь получает " +salaryIncreaseMasha+ " рублей. Годовой доход вырос на " +GrewUpMasha+
+        " рублей");
+System.out.println("Денис теперь получает " +salaryIncreaseDenis+ " рублей. Годовой доход вырос на " +GrewUpDenis+
+        " рублей");
+System.out.println("Кристина теперь получает " +salaryIncreaseKristina+ " рублей. Годовой доход вырос на "
+        +GrewUpKristina+ " рублей");
     }
 }
